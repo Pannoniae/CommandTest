@@ -2,8 +2,10 @@
 
 (btw if you have an nvidia gpu, send your results in! just run it and paste the output, we need more data points)
 
-Status update: we got another result back, same as my machine:
+#### Status update:
+we got another result back, same as my machine:
 
+```
 TerminateSequenceCommandNV: 0xe0000000 (size: 4)
 NopCommandNV: 0x00000000 (size: 4)
 DrawElementsCommandNV: 0xa0030e38 (size: 16)
@@ -24,5 +26,6 @@ ViewportCommandNV: 0xa0040e42 (size: 20)
 ScissorCommandNV: 0xa0040e32 (size: 20)
 FrontFaceCommandNV: 0xa0010e2a (size: 8)
 Hello, World!
+```
 
 Looks like the commands are the same on Turing+ (still need to test on Pascal and Maxwell, and fuck cares about older ones atm)
